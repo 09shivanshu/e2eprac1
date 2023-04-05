@@ -18,7 +18,7 @@ def get_collection_as_dataframe(database_name:str,collection_name:str)->pd.Dataf
     try:
         logging.info("reading data from database")
         df = pd.DataFrame(list(mongo_client[database_name][collection_name].find()))
-        logging.info(f"Found columns : {df.column}")
+        logging.info(f"Found columns : {df.columns}")
         if "_id" in df.columns:
             df = df.drop("_id",axis=1)
         logging.info(f"Row and Columns in df : {df.shape}")
