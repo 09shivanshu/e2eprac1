@@ -4,7 +4,7 @@ from sensor.logger import logging
 from sensor.exception import SensorException
 import os,sys
 
-def get_collection_as_dataframe(database_name:str,collection_name:str)->pd.Dataframe:
+def get_collection_as_dataframe(database_name:str,collection_name:str)->pd.DataFrame:
     '''
         this collection return collection as dataframe
         database_name = database name:
