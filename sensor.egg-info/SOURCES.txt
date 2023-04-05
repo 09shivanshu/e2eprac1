@@ -1,6 +1,8 @@
 README.md
 setup.py
 sensor/__init__.py
+sensor/exception.py
+sensor/logger.py
 sensor.egg-info/PKG-INFO
 sensor.egg-info/SOURCES.txt
 sensor.egg-info/dependency_links.txt
@@ -20,5 +22,3 @@ sensor/pipeline/__init__.py
 sensor/pipeline/training_pipeline.py
 sensor/utils/__init__.py
 sensor/utils/config.py
-sensor/utils/exception.py
-sensor/utils/logger.py
